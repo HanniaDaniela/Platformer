@@ -1,0 +1,38 @@
+.background    { background-image: url("https://beckerrobotics.files.wordpress.com/2014/11/stars-space-galaxy-nebula-graphics-1080x1920.jpg");
+                 background-repeat: repeat;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: purple; }
+.wall          { background-image: url("Images/cloud.png");
+                 background-size: 20px 20px; }
+.floater       { background: lightblue; }
+
+.actor  { position: absolute;  }
+
+.coin   { background-image: url("Images/original.gif");
+          background-size: 12px 12px;}
+
+.player { background-image: url("Images/astroBoy.png");
+          background-size: 17px 31px; }
+.enemy  { background-image: url("Images/alien.png");
+          background-size: 19px 30px; }
+.portal { background-image: url("Images/rocket2.png");
+          background-size: 20px 20px; }
+.return  { background-image: url("Images/rocket2.png");
+           background-size: 20px 20px; }
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 500px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
